@@ -45,7 +45,6 @@ fn run(path: String) {
                     "--use-gl=swiftshader",
                     "--use-mock-keychain",
                 ])
-                .with_head()
                 .build()
                 .unwrap(),
         )
